@@ -9,8 +9,8 @@ const MainLogo = () => {
       onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=1234&aff_id=44723&source=BrandMel" } }, "*")}
     >
       <img 
-        src="https://i.imgur.com/GsvfoMC.jpeg6" 
-        alt="Ulta Beauty Logo" 
+        src="https://i.imgur.com/ZTEareR.png" 
+        alt="Taco Bell Logo" 
         className="h-10 sm:h-25 w-25 object-contain transition-all duration-700 hover:brightness-110"
       />
     </div>
