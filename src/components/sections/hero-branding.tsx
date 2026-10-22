@@ -44,7 +44,7 @@ const HeroBranding = () => {
             {/* Main Card Image */}
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
-                src="https://i.imgur.com/rpASKno.png" 
+                src="https://i.imgur.com/onWjwyc.jpeg" 
                 alt="Ulta Beauty $500 Gift Card" 
                 className="w-full h-auto"
               />
@@ -62,7 +62,7 @@ const HeroBranding = () => {
         <div className="relative">
             <h1 className="text-[18px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#000000]">Unlock</span>
-            <span className="text-[#fc620c]">Ulta Beauty Rewards</span>
+            <span className="text-[#fc620c]">Taco Bell Rewards</span>
             <div className="flex items-center -ml-1">
               <Gift className="w-4.5 h-4.5 text-[#242931] fill-transparent" />
             </div>
