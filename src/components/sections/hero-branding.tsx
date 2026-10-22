@@ -45,7 +45,7 @@ const HeroBranding = () => {
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
                 src="https://i.imgur.com/onWjwyc.jpeg" 
-                alt="Ulta Beauty $500 Gift Card" 
+                alt="Taco Bell $100 Gift Card" 
                 className="w-full h-auto"
               />
               
@@ -73,7 +73,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#f1c40f] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#000000]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#fc620c] font-bold">$500 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#fc620c] font-bold">$100 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#f1c40f] shrink-0 animate-sparkle" />
         </div>
