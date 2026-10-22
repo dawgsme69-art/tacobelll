@@ -64,7 +64,7 @@ const HeroBranding = () => {
             <span className="text-[#000000]">Unlock</span>
             <span className="text-[#fc620c]">Taco Bell Rewards</span>
             <div className="flex items-center -ml-1">
-              <Gift className="w-4.5 h-4.5 text-[#242931] fill-transparent" />
+              <Gift className="w-4.5 h-4.5 text-[#fc620c] fill-transparent" />
             </div>
           </h1>
         </div>
