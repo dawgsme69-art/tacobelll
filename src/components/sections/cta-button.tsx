@@ -26,14 +26,14 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#e82044] hover:bg-[#e82044] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
+        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#fc620c] hover:bg-[#fc620c] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
       >
         {/* Shine Animation Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
 
         <div className="flex items-center gap-3 sm:gap-4 relative z-10">
           <Star 
-            className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-[#f1c40f] text-[#f1c40f] animate-pulse" 
+            className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-[#fc620c] text-[#fc620c] animate-pulse" 
             style={{ filter: 'drop-shadow(0 0 2px rgba(250, 204, 21))' }}
           />
 
@@ -42,7 +42,7 @@ export default function CTAButton() {
           </span>
 
           <Star 
-            className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-[#f1c40f] text-[#f1c40f] animate-pulse" 
+            className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-[#fc620c] text-[#fc620c] animate-pulse" 
             style={{ filter: 'drop-shadow(0 0 2px rgba(250, 204, 21))' }}
           />
         </div>
@@ -53,7 +53,7 @@ export default function CTAButton() {
       </p>
 
       {/* Subtle bottom glow */}
-      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-3/4 h-8 bg-[#0024cc]/20 blur-2xl -z-10 rounded-full opacity-50 pointer-events-none" />
+      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-3/4 h-8 bg-[#fc620c]/20 blur-2xl -z-10 rounded-full opacity-50 pointer-events-none" />
     </div>
   );
 }
