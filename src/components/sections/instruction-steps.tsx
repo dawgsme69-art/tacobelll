@@ -52,7 +52,7 @@ export default function InstructionSteps() {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -left-full group-hover/box:animate-shine pointer-events-none" />
 
         <div className="absolute -top-4 -right-4 w-32 h-32 bg-[#fc620c]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#fc620c/8 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#fc620c]/8 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 space-y-0 sm:space-y-1">
           {steps.map((step, index) => (
@@ -61,7 +61,7 @@ export default function InstructionSteps() {
               className="flex items-center gap-1.5 sm:gap-2.5 group/item animate-in fade-in slide-in-from-left duration-500 fill-mode-both"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#fc620c]/15 text-[#e61d47] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
+              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#fc620c]/15 text-[#fc620c] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
                 {step.icon}
               </div>
 
